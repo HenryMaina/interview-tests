@@ -15,7 +15,7 @@ public class VendingMachineTests {
 
 	/**
 	 * <h2>Overview</h2> This test allows customer to select products 1 = Coke(25), 2 = Pepsi(35), 
-	 * 3 = Soda(45) and 4 = Invalid section.
+	 * 3 = Soda(45) and 4 = Invalid selection.
 	 * <h2>Page</h2> 
 	 * <h2>Steps To Reproduce:</h2>
 	 * <ol>

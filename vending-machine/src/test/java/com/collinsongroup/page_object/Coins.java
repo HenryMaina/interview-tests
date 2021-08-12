@@ -1,22 +1,9 @@
 package com.collinsongroup.page_object;
 
-import com.collinsongroup.common.Constants;
-
 public class Coins {
 	
 	public static String insertCoins(){
 	    return "Please enter the amount in coins (1, 5, 10, 25)";
-	}
-
-	public static int insufficientMoney(int price){
-	    int money = 0;
-	    System.out.println("Your drink costs: " + price + " Please enter the amount in coins (1, 5, 10, 25)");
-	    money = Constants.KEYBOARD.nextInt();
-	    while (money < price){
-	        System.out.println("Please insert sufficient funds");
-	        money = money + Constants.KEYBOARD.nextInt();
-	    }
-	    return money - price;
 	}
 
 	public static String buy(String drink, int money){

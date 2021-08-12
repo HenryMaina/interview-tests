@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="83" started-at="2021-08-12T13:05:19 BST" finished-at="2021-08-12T13:05:19 BST">
+  <suite name="Default suite" duration-ms="68" started-at="2021-08-12T14:30:33 BST" finished-at="2021-08-12T14:30:33 BST">
     <groups>
       <group name="RegressionTesting">
-        <method signature="VendingMachineTests.test_Change()[pri:3, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Change" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
-        <method signature="VendingMachineTests.test_Insert_Coins()[pri:2, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Insert_Coins" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
-        <method signature="VendingMachineTests.test_Insufficient_Funds_Buy_Return_Change()[pri:4, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Insufficient_Funds_Buy_Return_Change" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
+        <method signature="VendingMachineTests.test_Change()[pri:3, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Change" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
+        <method signature="VendingMachineTests.test_Insert_Coins()[pri:2, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Insert_Coins" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
+        <method signature="VendingMachineTests.test_Insufficient_Funds_Buy_Return_Change()[pri:4, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Insufficient_Funds_Buy_Return_Change" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
       </group> <!-- RegressionTesting -->
       <group name="SanityTesting">
-        <method signature="VendingMachineTests.test_Products_Selection()[pri:1, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Products_Selection" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
+        <method signature="VendingMachineTests.test_Products_Selection()[pri:1, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Products_Selection" class="com.collinsongroup.test_cases.regression.VendingMachineTests"/>
       </group> <!-- SanityTesting -->
     </groups>
-    <test name="Regression" duration-ms="83" started-at="2021-08-12T13:05:19 BST" finished-at="2021-08-12T13:05:19 BST">
+    <test name="Default test" duration-ms="68" started-at="2021-08-12T14:30:33 BST" finished-at="2021-08-12T14:30:33 BST">
       <class name="com.collinsongroup.test_cases.regression.VendingMachineTests">
-        <test-method status="PASS" signature="test_Products_Selection()[pri:1, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Products_Selection" duration-ms="22" started-at="2021-08-12T13:05:19 BST" finished-at="2021-08-12T13:05:19 BST">
+        <test-method status="PASS" signature="test_Products_Selection()[pri:1, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Products_Selection" duration-ms="17" started-at="2021-08-12T14:30:33 BST" finished-at="2021-08-12T14:30:33 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Products_Selection -->
-        <test-method status="PASS" signature="test_Insert_Coins()[pri:2, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Insert_Coins" duration-ms="3" started-at="2021-08-12T13:05:19 BST" finished-at="2021-08-12T13:05:19 BST">
+        <test-method status="PASS" signature="test_Insert_Coins()[pri:2, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Insert_Coins" duration-ms="2" started-at="2021-08-12T14:30:33 BST" finished-at="2021-08-12T14:30:33 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Insert_Coins -->
-        <test-method status="PASS" signature="test_Change()[pri:3, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Change" duration-ms="1" started-at="2021-08-12T13:05:19 BST" finished-at="2021-08-12T13:05:19 BST">
+        <test-method status="PASS" signature="test_Change()[pri:3, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Change" duration-ms="2" started-at="2021-08-12T14:30:33 BST" finished-at="2021-08-12T14:30:33 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Change -->
-        <test-method status="PASS" signature="test_Insufficient_Funds_Buy_Return_Change()[pri:4, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@394e1a0f]" name="test_Insufficient_Funds_Buy_Return_Change" duration-ms="3" started-at="2021-08-12T13:05:19 BST" finished-at="2021-08-12T13:05:19 BST">
+        <test-method status="PASS" signature="test_Insufficient_Funds_Buy_Return_Change()[pri:4, instance:com.collinsongroup.test_cases.regression.VendingMachineTests@51cdd8a]" name="test_Insufficient_Funds_Buy_Return_Change" duration-ms="1" started-at="2021-08-12T14:30:33 BST" finished-at="2021-08-12T14:30:33 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_Insufficient_Funds_Buy_Return_Change -->
       </class> <!-- com.collinsongroup.test_cases.regression.VendingMachineTests -->
-    </test> <!-- Regression -->
-  </suite> <!-- Regression -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
